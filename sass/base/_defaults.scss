@@ -1,0 +1,17 @@
+body {
+  font-family: "Georama", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  color: $main-color;
+  background-color: $white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}

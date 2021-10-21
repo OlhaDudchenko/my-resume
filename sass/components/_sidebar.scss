@@ -1,0 +1,121 @@
+.sidebar {
+  background: #133f30;
+  width: 450px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.sidebar-wrapper {
+  padding: 0 30px;
+  width: 300px;
+}
+.my-photo {
+  width: 210px;
+  height: 300px;
+  // border-radius: 50%;
+  margin: 0 auto;
+}
+.contacts-container {
+  margin-top: 60px;
+  // margin-left: 40px;
+  // margin-right: 40px;
+}
+.contacts-title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 20px;
+  color: #f7f2dc;
+}
+.contacts-link {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #cacdd0;
+  text-decoration: none;
+}
+.contacts-link-tipe {
+  fill: #f7f2dc;
+  margin-right: 10px;
+}
+
+.tech-skills-title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 20px;
+  color: #f7f2dc;
+}
+.tech-skills-container {
+  // margin-left: 40px;
+  // margin-right: 40px;
+  margin-top: 55px;
+}
+.tech-skills-item {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-left: 15px;
+  color: #f7f2dc;
+}
+.tech-skills-text {
+  color: #cacdd0;
+}
+.tech-skills-list {
+  padding: 0;
+  list-style-type: "- ";
+}
+.soft-skills-title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 20px;
+  color: #f7f2dc;
+}
+.soft-skills-container {
+  // margin-left: 40px;
+  // margin-right: 40px;
+  margin-top: 55px;
+  // margin-bottom: 380px;
+}
+.soft-skills-item {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-left: 15px;
+  color: #f7f2dc;
+}
+.soft-skills-text {
+  color: #cacdd0;
+}
+.soft-skills-list {
+  padding: 0;
+  list-style-type: "- ";
+}
+
+.languages-title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 20px;
+  color: #f7f2dc;
+}
+.languages-container {
+  // margin-left: 40px;
+  // margin-right: 40px;
+  margin-top: 55px;
+  margin-bottom: 380px;
+}
+.languages-item {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-left: 15px;
+  color: #f7f2dc;
+}
+.languages-text {
+  color: #cacdd0;
+}
+.languages-list {
+  padding: 0;
+  list-style-type: "- ";
+}

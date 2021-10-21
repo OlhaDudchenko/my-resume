@@ -5,89 +5,143 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My resume</title>
-    <link rel="stylesheet" href="./css/style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Georama:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <!--main container -->
-    <div class="wrapper">
+    <div class="container">
         <aside class="sidebar">
-            <img class="my-photo" src="./images/my-photo.jpg" alt="My photo" />
-
+            <img class="my-photo" src="./images/my-photo2.jpg" alt="My photo" />
+<div class="sidebar-wrapper">
             <div>
                 <!--contacs container-->
                 <div class="contacts-container">
                     <h3 class="contacts-title">Contacts</h3>
 
-                    <div>
-                        <span class="contacts-link-tipe">C:</span><a class="contacts-link" href="tel:380953578835">+38
+                    <div >
+                       
+                            <svg  width="20" height="20" class="contacts-link-tipe">
+                            <use href="./images/symbol-defs.svg#icon-phone"></use>
+                        </svg>
+                  
+                    <a class="contacts-link" href="tel:380953578835">+38
                             095 357 88 35</a>
                     </div>
-                    <div>
-                        <span class="contacts-link-tipe">E:</span><a class="contacts-link"
+                    <div >
+                        
+                            <svg width="20" height="20" class="contacts-link-tipe">
+                                <use href="./images/symbol-defs.svg#icon-envelop"></use>
+                            </svg>
+                       
+                        <a class="contacts-link"
                             href="mailto:dudchenko.olha92@gmail.com">dudchenko.olha92@gmail.com</a>
                     </div>
+                    <div>
+                        
+                            <svg width="20" height="20" class="contacts-link-tipe">
+                                <use href="./images/symbol-defs.svg#icon-github"></use>
+                            </svg>
+                        <a class="contacts-link" href="https://github.com/OlhaDudchenko ">Github</a>
+                    </div>
+                    <div >
+                        
+                            <svg width="20" height="20" class="contacts-link-tipe">
+                                <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                            </svg>
+                        <a class="contacts-link" href="https://www.linkedin.com/in/olhadudchenko/">LinkedIn</a>
+                    </div>
+                    <div>
+                        
+                            <svg width="20" height="20" class="contacts-link-tipe">
+                                <use href="./images/symbol-defs.svg#icon-location"></use>
+                            </svg>
+                        <a class="contacts-link" href="https://www.google.com/maps/place/%D0%A5%D0%B5%D1%80%D1%81%D0%BE%D0%BD,+%D0%A5%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+73000/@46.6495511,32.5377419,12z/data=!3m1!4b1!4m5!3m4!1s0x40c41aa25d9bf967:0xf3a5478c8e3121fe!8m2!3d46.635417!4d32.616867">Ukraine,Kherson</a>
+                    </div>
+                   
                 </div>
 
                 <!--tech skills container-->
                 <div class="tech-skills-container">
                     <h3 class="tech-skills-title">Tech Skills</h3>
-                    <ul>
+                    <ul class="tech-skills-list">
                         <li class="tech-skills-item">
-                            <span class="tech-skills-text">HTML5</span>
+                            <span class="tech-skills-text">HTML5 / CSS3 / SASS</span>
                         </li>
                         <li class="tech-skills-item">
-                            <span class="tech-skills-text">CSS3</span>
+                            <span class="tech-skills-text">Responsive / Adaptive design</span>
                         </li>
                         <li class="tech-skills-item">
                             <span class="tech-skills-text">GIT</span>
                         </li>
                         <li class="tech-skills-item">
-                            <span class="tech-skills-text">WebPack</span>
+                            <span class="tech-skills-text">WebPack / Parcel</span>
                         </li>
                         <li class="tech-skills-item">
                             <span class="tech-skills-text">JavaScript</span>
                         </li>
                         <li class="tech-skills-item">
-                            <span class="tech-skills-text">React.js</span>
+                            <span class="tech-skills-text">React / Redux</span>
                         </li>
                         <li class="tech-skills-item">
                             <span class="tech-skills-text">Node.js</span>
+                        </li>
+                        <li class="tech-skills-item">
+                            <span class="tech-skills-text">MongoDB</span>
                         </li>
                     </ul>
                 </div>
                 <!--soft skills container-->
                 <div class="soft-skills-container">
                     <h3 class="soft-skills-title">Soft Skills</h3>
-                    <ul>
+                    <ul class="soft-skills-list">
                         <li class="soft-skills-item">
-                            <span class="soft-skills-text">Scrum</span>
+                            <span class="soft-skills-text">Patience</span>
                         </li>
                         <li class="soft-skills-item">
-                            <span class="soft-skills-text">Agile</span>
+                            <span class="soft-skills-text">Critical thinking / Problem-solving</span>
                         </li>
                         <li class="soft-skills-item">
-                            <span class="soft-skills-text">GTD</span>
+                            <span class="soft-skills-text">Communication</span>
                         </li>
                         <li class="soft-skills-item">
                             <span class="soft-skills-text">Teamworks</span>
                         </li>
                     </ul>
                 </div>
+                <div class="languages-container">
+                    <h3 class="languages-title">Languages </h3>
+                    <ul class="languages-list">
+                        <li class="languages-item">
+                            <span class="languages-text">English - Itermediate</span>
+                        </li>
+                        <li class="languages-item">
+                            <span class="languages-text">Ukrainian - Native</span>
+                        </li>
+                    <li class="languages-item">
+                        <span class="languages-text">Russian - Native</span>
+                    </li>
+                        
+                    </ul>
+                </div>
+            </div>
             </div>
         </aside>
         <!--about me container-->
         <div class="about-me-container">
             <!--about me main info-->
             <div class="info-container">
-                <h2 class="profession">Front-End Developer</h2>
+                
                 <h1 class="name">Olha Dudchenko</h1>
+                <h2 class="profession">Front-End Developer</h2>
+                <p class="summary">Summary</p>
                 <p class="description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-                    ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
-                    accumsan lacus vel facilisis.
+            I am a Front-End developer.My knowledge stack are CSS, HTML, Java Script and React. I am  looking for a full time position in a company where i can grow professionally and be part of a community that makes life easier, more productive and interesting.
                 </p>
             </div>
 
@@ -95,32 +149,25 @@
             <div class="projects-container">
                 <h3 class="about-me-title">Projects</h3>
 
-                <ol>
+                <ol class="projects-list">
                     <li class="project-item">
-                        <a class="projects-link" href="https://lovecamp.allinsol.com/">
-                            https://lovecamp.allinsol.com/
+                        <a class="projects-link" href="https://olhadudchenko.github.io/team-7up-project/">
+                            HellEN 
                         </a>
-                        <span class="dots">...........................</span>
-                        <span>
-                            <b>[</b><span class="tech-name">HTML5, CSS3</span>
-                            <b>]</b></span>
+                        <span class="projects-text">A website for english school with responsive design</span>
+                      
+                        <p class="projects-text"><span class="accent-text">Used: </span> HTML5,SASS,Java Script,Parsel</p>
+                        <p class="projects-text"><span class="accent-text">Role: </span> Team Lead</p>
+
                     </li>
                     <li class="project-item">
-                        <a class="projects-link" href=" https://cryptohub.goit.ua/">
-                            https://cryptohub.goit.ua/"</a>
-                        <span class="dots">..................................</span>
-                        <span>
-                            <b>[</b> <span class="tech-name">JavaScript </span>
-                            <b>]</b></span>
-                    </li>
-                    <li class="project-item">
-                        <a class="projects-link" href="https://kidslike.goit.co.ua/">
-                            https://kidslike.goit.co.ua/</a>
-                        <span class="dots">....................................</span>
-                        <span>
-                            <b>[</b>
-                            <span class="tech-name">React.js, Node.js</span> <b>]</b></span>
-                    </li>
+                        <a class="projects-link" href="https://garikdallari.github.io/JS-movie-gallery">
+                             Movie Gallery</a>
+                            <span class="projects-text">A multilingual website for searching movie with custom design and pagination</span>
+                   <p class="projects-text"><span class="accent-text">Used: </span> HTML5 HTML,SASS,Java Script,Rest API, AJAX,Handlebars,Parcel</p>
+                   <p class="projects-text"><span class="accent-text">Role: </span>  Developer</p>
+                        </li>
+                
                 </ol>
             </div>
 
@@ -130,74 +177,52 @@
                 <!--company 1-->
                 <div>
                     <h4 class="profession-title">
-                        Front-End Developer
-                        <span class="profession-company"> Freelance </span>
+                        Production operator
+                        <span class="profession-company">Visteon Electronics</span>
                     </h4>
                     <span class="profession-period">
-                        September 2019 - up to now
-                        <span class="profession-divider">|</span>Ukraine</span>
+                        March 2019 -  July 2019
+                        <span class="profession-divider">|</span>Slovakia</span>
                     <ul class="professional-duties">
                         <li class="professional-duties-item">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Installation of dashboards for cars.
                         </li>
                         <li class="professional-duties-item">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Operation of lines for mounting printed circuit boards.
                         </li>
                         <li class="professional-duties-item">
-                            Risus commodo viverra maecenas.
+                            Product inspection.
                         </li>
                         <li class="professional-duties-item">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                            eiusmod.
+                        Packaging of manufactured pieces.
                         </li>
                     </ul>
+                    
                 </div>
 
                 <!--company 2-->
                 <div>
                     <h4 class="profession-title">
-                        Manager
-                        <span class="profession-company">Roga & Kopyta New </span>
+                        Shop assistant
+                        <span class="profession-company">NAILS SERVICE</span>
                     </h4>
                     <span class="profession-period">
-                        March 2015 - October 2018
+                        March 2011 - December 2017
                         <span class="profession-divider">|</span>Ukraine</span>
                     <ul class="professional-duties">
                         <li class="professional-duties-item">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                            eiusmod labore et dolore magna aliqua.
+                            Assisting customers in finding the products they're looking for.
                         </li>
                         <li class="professional-duties-item">
-                            Quis ipsum suspendisse ultrices gravida.
+                        Processing customer payments at the checkout point/till.
                         </li>
                         <li class="professional-duties-item">
-                            Risus commodo viverra maecenas.
+                        Store inventory
                         </li>
                     </ul>
                 </div>
 
-                <!--company 3-->
-                <div>
-                    <h4 class="profession-title">
-                        Manager
-                        <span class="profession-company"> Roga & Kopyta New </span>
-                    </h4>
-                    <span class="profession-period">
-                        June 2014 - February 2015<span class="profession-divider">|</span>
-                        Ukraine</span>
-                    <ul class="professional-duties">
-                        <li class="professional-duties-item">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        </li>
-                        <li class="professional-duties-item">
-                            Quis ipsum suspendisse ultrices gravida.
-                        </li>
-                        <li class="professional-duties-item">
-                            Risus commodo viverra maecenas.
-                        </li>
-                    </ul>
-                </div>
+               
             </div>
 
             <!--education-->
@@ -205,16 +230,43 @@
                 <h3 class="about-me-title">Education</h3>
                 <div>
                     <p class="education-name">
-                        Kharkiv National University of Radioelectronics
+                    Kherson Professional Lyceum Food Industry
                     </p>
                 </div>
                 <div>
-                    <p class="education-depart">Management</p>
+                    <p class="education-depart">Food inspector and laboratory assistant of chemical and bacteriological analysis</p>
                 </div>
-                <span class="education-period">Septermber 2009 - June 2014
+                <span class="education-period">Septermber 2007 - June 2010
                     <span class="education-divider">|</span>Ukraine</span>
-            </div>
+
+                    <h3 class="about-me-title"> Additional Education</h3>
+                    <div>
+                        <p class="education-name">
+                            Nota Bene
+                        </p>
+                    </div>
+                    <div>
+                        <p class="education-depart">Computer graphics</p>
+                    </div>
+                    <span class="education-period">December 2016
+                        <span class="education-divider">|</span>Ukraine</span>
+                    
+                    <div>
+                        <p class="education-name">
+                            IT School GoIT
+                        </p>
+                    </div>
+                    <div>
+                        <p class="education-depart">Full stack developer</p>
+                    </div>
+                    <span class="education-period">January 2021 - December 2021
+                        <span class="education-divider">|</span>Ukraine</span>
+                  
+                    
+        
+              
         </div>
+    </div>
     </div>
 </body>
 
