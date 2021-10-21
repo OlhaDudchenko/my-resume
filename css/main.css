@@ -321,8 +321,8 @@ img {
 .about-me-container {
   padding-left: 90px;
   padding-right: 90px;
-  padding-bottom: 110px;
-  padding-top: 110px;
+  padding-bottom: 90px;
+  padding-top: 90px;
   background-image: url("../../images/paper.png");
   background-color: #f7f2dc;
 }
